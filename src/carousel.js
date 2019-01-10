@@ -18,7 +18,7 @@ class Carousel extends React.PureComponent {
     render() {
         console.log('1111: ', elements);
         return(
-            <div style={{width: this.props.width || '100%', height: this.props.height || '33vh' }}>
+            <div style={{width: this.props.width || '100%', height: this.props.height || '60vh' }}>
                 <Slider {...settings}>
                     {this.props.children}
                 </Slider>

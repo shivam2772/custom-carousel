@@ -8,9 +8,29 @@
 .Slick-content {
   display: flex !important;
   justify-content: center;
-  height: 100px;
+  position: relative;
+  /* background-image: url('./assets/img/australia.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; */
 }
-
+.slick-slider {
+  display: flex;
+  height: 100%;
+}
+.FormDiv {
+  display: flex;
+}
+.image-text-content {
+  position: absolute;
+  height: 60vh;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.InputDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
 /* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
