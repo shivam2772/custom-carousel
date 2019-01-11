@@ -9,27 +9,37 @@
   display: flex !important;
   justify-content: center;
   position: relative;
-  /* background-image: url('./assets/img/australia.jpg');
-  background-size: cover;
-  background-repeat: no-repeat; */
 }
 .slick-slider {
   display: flex;
   height: 100%;
 }
+.slick-list {
+  width: 100%;
+}
 .FormDiv {
   display: flex;
+  flex-wrap: wrap;
 }
 .image-text-content {
   position: absolute;
-  height: 60vh;
   display: flex;
   flex-direction: column-reverse;
+  height: 90%;
 }
 .InputDiv {
   display: flex;
   flex-direction: column;
   margin: 0 10px;
+}
+.text-carousel-subheading {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+label {
+  color: white;
+  font-size: 16px;
 }
 /* .App-logo {
   animation: App-logo-spin infinite 20s linear;
